@@ -157,8 +157,8 @@ img(alt!=trans('hello')) --- можешь функцию
 
 P.S. ЛЮБОЙ ИЗ МИКСИНОВ МОЖНО НАПИСАТЬ 3-4-МЯ РАЗНЫМИ СПОСОБАМИ, А ЕСЛИ ПОДУМАТЬ, ТО СПОСОБОВ ЕЩЕ БОЛЬШЕ. ДАВАЙ ДОГОВОРИМСЯ, БУДЕМ ПИСАТЬ КАК ТУТ, ДЛЯ ВСЕХ ОДИНАКОВО, НЕ БУДЕМ ИЗОБРЕТАТЬ ВЕЛОСИПЕД, А ПОТОМ ТВОЙ КОЛЛЕГА БУДЕТ ТРАТИТЬ ВРЕМЯ НА ДЕШИФРОВКУ ТВОИХ МИКСИНОВ :)
 P.S.S не забывай про фильтры: 
-  1.(jinja) https://docs.djangoproject.com/en/2.2/ref/templates/builtins/
-  2.(twig) https://twig.symfony.com/doc/2.x/filters/index.html
+  - 1.(jinja) https://docs.djangoproject.com/en/2.2/ref/templates/builtins/
+  - 2.(twig) https://twig.symfony.com/doc/2.x/filters/index.html
   Они очень очень помогают, прям мега крутые помощники. С ними в темплейтах можно творить настоящую магию без js-са) Взять хотя бы самый распостраненный фильтр - `truncatechars` . Если 
   ```
   p: +exp('a_lot_of_text|truncatechars(50)')
