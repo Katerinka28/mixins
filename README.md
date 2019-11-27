@@ -13,8 +13,9 @@
   - If/elif/else
   - ext
   - inc
+  - url
   - trans
-
+  
 
 # Mixins -  What is this?
 По-простому - это функции в Pag-e. Вот [примеры](https://pugjs.org/language/mixins.html).
